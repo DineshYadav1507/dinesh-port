@@ -1,0 +1,11 @@
+.center {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;    /* Centers vertically */
+    height: 60vh;          /* Full viewport height for vertical centering */
+  }
+  
+  .center img {
+    max-width: 50%;        /* Ensures the image resizes properly */
+    height: auto;           /* Maintains the aspect ratio */
+  }
